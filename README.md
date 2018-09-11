@@ -1,5 +1,11 @@
 # hotel-booking-service
 
+steps to run the application :
+1. mvn clean install
+2. nohup java -jar target/hotelbookingservice.jar &
+3. Application base url : http://localhost:8088/hotelbookingservice
+4. Swagger url : http://localhost:8088/hotelbookingservice/swagger-ui.html . Please use swagger to test the APIS.
+
 consists of 2 controllers :
 1. room-type-controller
 2. booking-controller
